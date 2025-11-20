@@ -15,11 +15,7 @@ public enum Open {
 
     public void execute(Player sender, @Nullable Integer number, boolean force) {
         if (number == null) {
-            if (!force && !sender.hasPermission("axvaults.selector")) {
-                MESSAGEUTILS.sendLang(sender, "no-permission");
-                return;
-            }
-            new VaultSelector().open(sender);
+            MESSAGEUTILS.sendLang(sender, "vault.no-number-provided");
             return;
         }
 
