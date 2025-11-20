@@ -1,6 +1,5 @@
 package com.artillexstudios.axvaults.commands.subcommands;
 
-import com.artillexstudios.axvaults.guis.VaultSelector;
 import com.artillexstudios.axvaults.vaults.Vault;
 import com.artillexstudios.axvaults.vaults.VaultManager;
 import org.bukkit.entity.Player;
